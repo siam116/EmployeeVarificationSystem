@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#399ac4"
+    >
+
+
+    <EditText
+
+        android:hint="emp_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/EmployeeName"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        />
+    <EditText
+
+        android:hint="emp_typ"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/EmployeeType"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+
+        android:hint="emp_id"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/Id"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+
+        android:hint="emp_add"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/Address"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+
+        android:hint="emp_join"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/DateofJoining"
+        android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Button
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD Employee"
+        android:id="@+id/AddEmployee"
+        android:onClick="btn_click"
+        />
+    <Button
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Employee"
+        android:id="@+id/DisEmployee"
+        android:onClick="btn_click"
+        />
+    <Button
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Employee"
+        android:id="@+id/UpdateEmployee"
+        android:onClick="btn_click"
+        />
+    <Button
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Employee"
+        android:id="@+id/DeleteEmployee"
+        android:onClick="btn_click"
+        />
+
+
+    <Button
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:id="@+id/SignUp"
+        android:onClick="btn_click"
+        />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/TextView"
+        android:gravity="top|center"
+        />
+
+
+
+
+
+</LinearLayout>
